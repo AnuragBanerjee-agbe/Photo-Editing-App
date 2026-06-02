@@ -1,0 +1,6 @@
+{
+  "name": "AI Video Editor",
+  "description": "Premium video editing studio using Gemini AI to choreograph transitions, auto color-grade, and export responsive pitches or highlights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

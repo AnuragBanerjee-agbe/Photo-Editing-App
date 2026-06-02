@@ -1,0 +1,13 @@
+package com.example.data.entity
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "projects")
+data class ProjectEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0L,
+    val name: String,
+    val description: String = "",
+    val selectedFilter: String = "Corporate Clean",
+    val createdAt: Long = System.currentTimeMillis()
+)
